@@ -1,35 +1,37 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+<div class="footer-agileits-w3layouts">
+  <div class="container">
+    <div class="btm-logo-w3ls">
+      <h2><a href="index.html"><span class="fa fa-check-square-o" aria-hidden="true"></span>Institute</a></h2>
+    </div>
+    <div class="subscribe-w3ls">
+      <h6>Let us inform you about everything important directly.</h6>
+      <form action="#" method="post">
+        <div class="col-md-8 col-sm-8 col-xs-8 input-flds-w3-agile">
+          <input type="email" name="Email" placeholder="Email" required="">
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4 input-flds-w3-agile">
+          <input type="submit" value="Subscribe">
+        </div>
+        <div class="clearfix"> </div>
+      </form>
+    </div>
+    <div class="social-icons-agileits">
+      <ul>
+        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+        <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+      </ul>
     </div>
 
+    <div class="clearfix"> </div>
   </div>
+</div>
+<div class="copyright-w3layouts">
+  <div class="container">
+    <p>&copy; 2018 Institute . All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts </a></p>
+  </div>
+</div>
+<!-- //Footer -->
 
-</footer>
+<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;">
+  </span></a>
