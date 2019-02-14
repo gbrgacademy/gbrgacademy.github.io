@@ -552,7 +552,7 @@ nav.shift ul li a.active:after ,nav.shift ul li a:hover:after {
 	-o-background-size: cover;
 	-ms-background-size: cover;
 	background-size: cover;
-	min-height: 795px;
+	min-height: 530px;
 	position: relative;
 }
 
@@ -561,7 +561,7 @@ nav.shift ul li a.active:after ,nav.shift ul li a:hover:after {
 }
 
 .banner-text {
-	padding: 13em 0em 0 0;
+	padding: 2em 0em 0 0;
 	text-align: right;
 }
 
@@ -814,13 +814,11 @@ p.sub-para {
 }
 
 .slider-info h3 {
-	font-size: 4em;
+	font-size: 3em;
 	color: #fff;
-	letter-spacing: 2px;
 	font-weight: 400;
 	text-transform: capitalize;
 	font-family: 'Righteous', cursive;
-	margin-left: 8em;
 	line-height: 1.15em;
 	font-family: 'Righteous', cursive;
 }
@@ -2221,6 +2219,9 @@ h3.title {
 	.grid_3.grid_4.icons_page {
 		margin-top: 0;
 	}
+	.navbar-toggle {
+		margin:0;
+	}
 }
 
 @media (max-width: 480px) {
@@ -2758,10 +2759,10 @@ p.white-clr {
 
 @media(max-width:1366px) {
 	.banner-text {
-		padding: 9em 0em 0 0;
+		padding: 2em 0em 0 0;
 	}
 	.slider-info h3 {
-		font-size: 3.5em;
+		font-size: 3em;
 	}
 	.banner {
 		min-height: 745px;
@@ -2795,6 +2796,12 @@ p.white-clr {
 	}
 }
 
+@media(max-width:1200px) {
+	.slider-info h3 {
+		font-size: 2.5em;
+	}
+}
+
 @media(max-width:1080px) {
 	.main-w3ls-logo a {
 		font-size: 1.2em;
@@ -2810,9 +2817,6 @@ p.white-clr {
 	}
 	.navbar-nav {
 		margin: 1.1em 3em 0 0;
-	}
-	.slider-info h3 {
-		margin-left: 6em;
 	}
 	.banner {
 		min-height: 700px;
@@ -2882,8 +2886,7 @@ p.white-clr {
 		margin: 1em 3em 0 0;
 	}
 	.slider-info h3 {
-		margin-left: 3em;
-		font-size: 3.2em;
+		font-size: 2em;
 	}
 	.banner-text {
 		padding: 5em 0em 0 0;
@@ -2963,10 +2966,6 @@ p.white-clr {
 @media(max-width:900px) {}
 
 @media(max-width:800px) {
-	.slider-info h3 {
-		margin-left: 4em;
-		font-size: 3em;
-	}
 	.slider-info p {
 		margin-top: 0.5em;
 	}
@@ -2974,10 +2973,10 @@ p.white-clr {
 		margin-top: 1em;
 	}
 	.banner-text {
-		padding: 4em 0em 0 0;
+		padding: 2em 0em 0 0;
 	}
 	.banner {
-		min-height: 535px;
+		min-height: 300px;
 	}
 	.about-section,
 	.stats,
@@ -3080,11 +3079,6 @@ p.white-clr {
 		border-bottom: none;
 		display: inline-block;
 	}
-	.navbar-toggle {
-		margin-top: 15px;
-		margin-right: 49px;
-		margin-bottom: 0px;
-	}
 	.navbar {
 		position: initial;
 	}
@@ -3099,9 +3093,6 @@ p.white-clr {
 	}*/
 	.main-w3ls-logo {
 		float: left;
-	}
-	.banner {
-		min-height: 480px;
 	}
 	.stat-grids:nth-child(2) {
 		margin: 1.5em 0 1.3em;
@@ -3130,16 +3121,12 @@ p.white-clr {
 	.gallery_grid_pos h3 {
 		margin-top: 3%;
 	}
+	.slider-info h3 {
+		font-size: 1.7em;
+	}
 }
 
 @media(max-width:667px) {
-	.slider-info h3 {
-		margin-left: 2.5em;
-		font-size: 2.8em;
-	}
-	.banner {
-		min-height: 465px;
-	}
 	.copyright-w3layouts p {
 		letter-spacing: 2px;
 	}
@@ -3148,10 +3135,6 @@ p.white-clr {
 @media(max-width:640px) {}
 
 @media(max-width:600px) {
-	.slider-info h3 {
-		margin-left: 1.5em;
-		font-size: 2.8em;
-	}
 	select#country,
 	select#country1 {
 		margin-top: 0;
@@ -3166,12 +3149,7 @@ p.white-clr {
 
 @media(max-width:568px) {
 	.slider-info h3 {
-		margin-left: 2em;
-		font-size: 2.5em;
-		letter-spacing: 1.5px;
-	}
-	.banner {
-		min-height: 430px;
+		font-size: 2em;
 	}
 	.banner-text {
 		padding: 3.3em 0em 0 0;
@@ -3201,19 +3179,11 @@ p.white-clr {
 		margin-bottom: 0.4em;
 		letter-spacing: 1px;
 	}
-	.slider-info h3 {
-		margin-left: 1em;
-		font-size: 2.4em;
-		letter-spacing: 1px;
-	}
 	.slider-info a {
 		font-size: 15px;
 	}
-	.banner {
-		min-height: 410px;
-	}
 	.banner-text {
-		padding: 3em 0em 0 0;
+		padding: 1em 0em 0 0;
 	}
 	.subscribe-w3ls h6 {
 		font-size: 14px;
@@ -3326,7 +3296,6 @@ p.white-clr {
 
 @media(max-width:414px) {
 	.slider-info h3 {
-		margin-left: 1em;
 		font-size: 2em;
 	}
 	.stat-grids p {
@@ -3371,7 +3340,7 @@ p.white-clr {
 		margin-right: 42px;
 	}
 	.banner {
-		min-height: 380px;
+		min-height: 300px;
 	}
 	.banner-text {
 		padding: 2.5em 0em 0 0;
@@ -3391,9 +3360,6 @@ p.white-clr {
 	.slider-info p {
 		letter-spacing: .9px;
 		line-height: 28px;
-	}
-	.main-w3ls-logo {
-		float: none;
 	}
 	.banner-text {
 		padding: 1em 0em 0 0;
