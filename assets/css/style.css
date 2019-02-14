@@ -224,7 +224,7 @@ nav.shift ul li a.active:after ,nav.shift ul li a:hover:after {
 .navbar-default .navbar-nav>li>a {
 	font-size: 13px;
 	letter-spacing: 1.5px;
-	color: #fff;
+	color: #000;
 	background: transparent;
 	padding: 8px 15px;
 	font-weight: 600;
