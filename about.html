@@ -3,6 +3,90 @@ layout: default
 title: About
 permalink: /about/
 ---
+<div id="about-page">
 
-{% include about-trailer.html %}
+  {% include banner.html %}
+  {% include about-trailer.html %}
 
+  <!-- about-mid -->
+  <div class="about-mid">
+    <div class="mid-info">
+      <h3 class="subheading-wthree white-clr">Courses</h3>
+      <p class="paragraph-agileinfo white-clr">
+        Introduction to Full Stack Web Developement
+      </p>
+      <ul>
+        <li><span class="fa fa-asterisk" aria-hidden="true"></span>Front End - HTML, CSS, JavaScript</li>
+        <li><span class="fa fa-asterisk" aria-hidden="true"></span>Back End - Ruby, Ruby on Rails</li>
+        <li><span class="fa fa-asterisk" aria-hidden="true"></span>Deployment - Automation, Capistrano</li>
+      </ul>
+      <a href="/courses">Find out more</a>
+    </div>
+    <div class="mid-info">
+      <h3 class="subheading-wthree white-clr">Trainers</h3>
+      <p class="paragraph-agileinfo white-clr">
+        Learn through the Industry-Experienced Trainers
+      </p>
+      <ul>
+        <li><span class="fa fa-asterisk" aria-hidden="true"></span>Pragmatic Approach</li>
+        <li><span class="fa fa-asterisk" aria-hidden="true"></span>Pair Programming</li>
+        <li><span class="fa fa-asterisk" aria-hidden="true"></span>Fun and Cool Environment</li>
+      </ul>
+      <a href="#team" class="scroll">Meet our trainers</a>
+    </div>
+    <div class="mid-info">
+      <h3 class="subheading-wthree white-clr">Admission process</h3>
+      <p class="paragraph-agileinfo white-clr">
+        Admission should be simple but there will be pre-requisites. 
+        <br><br>
+        Student should know:
+      </p>
+      <ul>
+        <li><span class="fa fa-asterisk" aria-hidden="true"></span>Basic Programming Concepts</li>
+        <li><span class="fa fa-asterisk" aria-hidden="true"></span>Passion to Learn and Groom</li>
+        <li><span class="fa fa-asterisk" aria-hidden="true"></span>Open for Suggestions and Ideas</li>
+      </ul>
+      <a href="/enroll">Get enrolled</a>
+    </div>
+  </div>
+  <!--// about-mid -->
+  <!-- Team -->
+  <div class="team-section" id="team">
+    <div class="container">
+      <h5 class="main-w3l-title">Trainers</h5>
+      <div class="col-md-6 team-left">
+        <p class="paragraph-agileinfo">
+          BRG is a self-motivated and self-taught engineer. 
+          <br>
+          <i>He believes in learn-teach-learn cycle.</i>
+          <br>
+          <br>
+          He has around 8 years of IT Industry experience with different stack and domains
+          including Web Developement with Ruby on Rails, Automation, QA, DevOps Practices, Containers etc.
+        </p>
+        <div class="about-w3ls-right">
+          <ul>
+            <li><span class="fa fa-check-square-o" aria-hidden="true"></span></span>Instructor-Led Sessions</li>
+            <li><span class="fa fa-check-square-o" aria-hidden="true"></span></span>Pair Programming</li>
+            <li><span class="fa fa-check-square-o" aria-hidden="true"></span></span>Workshop</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 team-right">
+        <div class="col-md-12 col-sm-12 col-xs-12 team-grid">
+          <img class="team-img img-responsive" src="{{ site.baseurl }}/assets/images/t1.jpg" alt="">
+          <h6>Budh Ram Gurung (BRG)</h6>
+          <div class="social-icons-agileits">
+            <ul>
+              <li><a href="https://www.facebook.com/gorkhabrg/" target="_blank"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="https://twitter.com/coolbrg/" target="_blank"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="https://www.linkedin.com/in/coolbrg/" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+              <li><a href="https://github.com/coolbrg/" target="_blank"><span class="fa fa-github"></span></a></li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

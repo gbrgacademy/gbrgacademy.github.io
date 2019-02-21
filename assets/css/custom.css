@@ -20,3 +20,7 @@ header {
   color: #111;
   font-weight: 600;
 }
+
+#about-page .banner, #courses-page .banner {
+  min-height: 180px !important;
+}

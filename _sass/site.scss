@@ -997,7 +997,7 @@ select#country1,
 
 .login-social-grids ul li a i.fa.fa-facebook,
 .login-social-grids ul li a i.fa.fa-twitter,
-.login-social-grids ul li a i.fa.fa-rss {
+.login-social-grids ul li a i.fa.fa-rss, {
 	height: 35px;
 	width: 35px;
 	border: solid 2px #212121;
@@ -1573,7 +1573,7 @@ h3.subheading-wthree {
 .team-left p:nth-child(even) {
 	background: #b5b5b5;
 	padding: .5em 1em;
-	text-align: right;
+	text-align: justify;
 	margin: 1em 0;
 	color: #fff;
 }
@@ -2598,7 +2598,8 @@ h2.typoh2 {
 
 .social-icons-agileits ul li a span.fa.fa-facebook,
 .social-icons-agileits ul li a span.fa.fa-twitter,
-.social-icons-agileits ul li a span.fa.fa-linkedin {
+.social-icons-agileits ul li a span.fa.fa-linkedin,
+.social-icons-agileits ul li a span.fa.fa-github {
 	height: 35px;
 	width: 35px;
 	background: #FFFFFF;
@@ -2627,7 +2628,12 @@ h2.typoh2 {
 }
 
 .social-icons-agileits ul li a span.fa.fa-linkedin:hover {
-	background: #dd4b39;
+	background: #0077B5;
+	color: #FFFFFF;
+}
+
+.social-icons-agileits ul li a span.fa.fa-github:hover {
+	background: #24292e;
 	color: #FFFFFF;
 }
 
