@@ -218,18 +218,17 @@ nav.shift ul li a.active:after ,nav.shift ul li a:hover:after {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-	color: #555;
+	color: #111;
 	background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a {
-	font-size: 13px;
+	font-size: 15px;
 	letter-spacing: 1.5px;
 	color: #111;
 	background: transparent;
 	padding: 8px 15px;
 	font-weight: 600;
-	border-bottom: 2px solid transparent;
 }
 
 .navbar-nav>li {
@@ -255,11 +254,11 @@ nav.shift ul li a.active:after ,nav.shift ul li a:hover:after {
 	border-color: transparent;
 }
 
-.navbar-nav>li>a.active,
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
-	color: #00b6e3;
-	border-bottom: 2px solid #fff;
+.navbar-nav>li.active,
+.navbar-default .navbar-nav>li:hover,
+.navbar-default .navbar-nav>li:focus {
+	background: #f06292;
+	color: white;
 }
 
 .dropdown-menu {

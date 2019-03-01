@@ -21,7 +21,7 @@ header {
   font-weight: 600;
 }
 
-#about-page .banner, #courses-page .banner {
+#about-page .banner, #courses-page .banner, #trainers-page .banner {
   min-height: 180px !important;
 }
 
