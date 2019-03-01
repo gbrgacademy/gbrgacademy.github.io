@@ -24,3 +24,34 @@ header {
 #about-page .banner, #courses-page .banner {
   min-height: 180px !important;
 }
+
+.team-section .trainer-area {
+  margin-bottom: 2em;
+  padding: 1.5em;
+}
+.team-section .trainer-area:nth-child(even) {
+  background-color: ghostwhite;
+}
+.team-section .trainer-area:nth-child(odd) {
+  background-color: whitesmoke;
+}
+.trainer-area .current-role {
+  background: black;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+.trainer-area .trainer-pic {
+  background: #e6e6e6;
+  text-align: center;
+  padding: 2em;
+}
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+@media (max-width: 430px) {
+  .team-section .trainer-area {
+    padding: 0.5em;
+  }
+}
