@@ -1,0 +1,48 @@
+- name: Victor Goff
+  nick: Vic
+  pic: victor.png
+  alt: Victor Goff
+  quote: |
+    Find me mentoring in person or online. Everyone starts somewhere! Contact me to pair program!
+  intro_header: |
+    Vic is a distinguished trainer and has been training <a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a>
+    from last <b>10+ Years</b> through <a href="https://courses.rubylearning.org" target="_blank">RubyLearning.Org.</a>
+  intro_body: |
+    He is a Systems/Network Generalist with 25+ Years experience and currently a Mentor with Ruby Programming,
+    and looking to continue on with exceptional customer oriented services with a strong entrepreneurial spirit.   
+  current_role: |
+    Currently, he is playing as a role of Chief Knowledge Officer(CKO) in
+    <a href="https://sinequix.com/" target="_blank">Sinequix</a> and Senior Technical Advisor in
+    <a href="https://www.starfruitsolutions.com/" target="_blank">Starfruit Solutions</a>.
+  expertise:
+    - Instructor-Led Sessions
+    - Pair Programming
+    - Workshop  
+  socials:
+    facebook: vhgiii
+    twitter: kotp
+    linkedin: vgoff
+    github: kotp
+
+- name: Budh Ram Gurung
+  nick: BRG
+  pic: brg.png
+  alt: Budh Ram Gurung
+  quote: He believes in learn-teach-learn theory.   
+  intro_header: |
+    BRG is a self-motivated and self-taught engineer and founder of this Acadamy.
+  intro_body: |
+    He has around 8 years of IT Industry experience in different domains and stack which includes
+    Full Stack Web Developement with Ruby on Rails, Automation, QA, DevOps, Containers etc.
+  current_role: |
+    Currently, he is also playing the role as the Director & CTO of <a href="https://averonmedia.com">Averon Media</a>,
+    a Web Developement & Digital Marketing firm in Pune, India.
+  expertise:
+    - Instructor-Led Sessions
+    - Pair Programming
+    - Workshop  
+  socials:
+    facebook: gorkhabrg
+    twitter: coolbrg
+    linkedin: coolbrg
+    github: coolbrg

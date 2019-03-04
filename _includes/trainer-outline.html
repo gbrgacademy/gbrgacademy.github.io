@@ -1,0 +1,49 @@
+<div class="row trainer-area">
+  <div class="row">
+    <div class="col-md-5 mb-1">
+      <p class="paragraph-agileinfo">
+        {{ include.trainer.intro_header }}
+        {% unless include.trainer.intro_quote == "" %}
+          <br><br>
+          <blockquote><i>&#8220;{{ include.trainer.quote }}&#8221;</i></blockquote>
+        {% endunless %}
+        <br><br>
+        {{ include.trainer.intro_body }}
+      </p>
+    </div>
+    <div class="col-md-4 trainer-pic mb-1">
+      <img class="team-img img-responsive" src="{{ site.baseurl }}/assets/images/{{ include.trainer.pic }}" alt="">
+      <h6>{{ include.trainer.name }} ({{ include.trainer.nick }})</h6>
+      <div class="social-icons-agileits">
+        <ul>
+          <li>
+            <a href="https://twitter.com/{{ include.trainer.socials.twitter }}" target="_blank"><span class="fa fa-twitter"></span></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/{{ include.trainer.socials.twitter }}" target="_blank"><span class="fa fa-facebook"></span></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/{{ include.trainer.socials.linkedin }}/" target="_blank"><span class="fa fa-linkedin"></span></a>
+          </li>
+          <li>
+            <a href="https://github.com/{{ include.trainer.socials.github }}" target="_blank"><span class="fa fa-github"></span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <div class="col-md-3 mb-1">
+      <div class="about-w3ls-right">
+        <h4>Expertise</h4>
+        <ul>
+          {% for skill in include.trainer.expertise %}
+            <li><span class="fa fa-check-square-o" aria-hidden="true"></span></span>{{ skill }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row current-role">
+    {{ include.trainer.current_role }}
+  </div>
+</div>
