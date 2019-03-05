@@ -21,7 +21,7 @@ header {
   font-weight: 600;
 }
 
-#about-page .banner, #courses-page .banner, #trainers-page .banner {
+#about-page .banner, #trainers-page .banner {
   min-height: 180px !important;
 }
 
@@ -48,6 +48,34 @@ header {
 }
 .mb-1 {
   margin-bottom: 1em;
+}
+
+.navbar-nav>li.active,
+.navbar-default .navbar-nav>li:hover,
+.navbar-default .navbar-nav>li:focus {
+	background: #f06292;
+	color: white !important;
+}
+
+.elevator-pitch {
+  padding: 1em;
+  background: #f06292;
+  color: white;
+  text-align: center;
+}
+
+/* Training */
+.training-list {
+  padding: 2em 0;
+}
+
+.training-list .tab-content {
+  padding: 1em;
+  box-shadow: 1px 1px 4px #111;
+}
+
+.training-list .nav-tabs img {
+  height: 50px;
 }
 
 @media (max-width: 430px) {
