@@ -1,0 +1,187 @@
+/* Your Custom SCSS */
+header {
+  background-color: #fdfdfd;
+}
+.training-banner .slider-info h3 {
+  font-weight: 600;
+  margin-top: 3em;
+  text-align: center;
+}
+.courses-banner .slider-info h3 {
+  font-weight: 600;
+  text-align: center;
+}
+.course-annoucement-text {
+  font-size: 2.5em;
+  text-transform: capitalize;
+  text-align: left;
+  margin-bottom: 0.6em;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.social-icons-agileits {
+  margin-top: 1em;
+}
+
+.serv-inner1 .title {
+  color: #111;
+  font-weight: 600;
+}
+
+#about-page .banner, #trainers-page .banner {
+  min-height: 180px !important;
+}
+
+.team-section .trainer-area {
+  margin-bottom: 2em;
+  padding: 1.5em;
+}
+.team-section .trainer-area:nth-child(even) {
+  background-color: ghostwhite;
+}
+.team-section .trainer-area:nth-child(odd) {
+  background-color: whitesmoke;
+}
+.trainer-area .current-role {
+  background: black;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+.trainer-area .trainer-pic {
+  background: #e6e6e6;
+  text-align: center;
+  padding: 2em;
+}
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.navbar-nav>li.active,
+.navbar-default .navbar-nav>li:hover,
+.navbar-default .navbar-nav>li:focus {
+	background: #f06292;
+	color: white !important;
+}
+
+.nav > li > a {
+  padding: 10px;
+}
+
+.elevator-pitch {
+  padding: 0.5em;
+  background: #f06292;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.elevator-pitch.bg-blue.pitch-small {
+  padding: 1em;
+  font-size: 22px;
+  background: #00b6e3;
+}
+/* Training */
+.training-list {
+  padding: 2em 0;
+}
+
+.training-list .tab-content {
+  padding: 1em;
+  box-shadow: 1px 1px 4px #111;
+}
+
+.training-list .nav-tabs img {
+  height: 50px;
+}
+
+.training-list .tab-content .row {
+  margin: 0;
+}
+.training-list .tab-content .qns-box {
+  margin-bottom: 1.5em;
+}
+.training-list .tab-content .col-md-6, .training-list .tab-content .col-sm-12 {
+  padding: 0;
+}
+
+.training-banner {
+	background: url($baseurl + "/assets/images/career-focussed.jpg")no-repeat 0px 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+	position: relative;
+	height: 420px;
+}
+.courses-banner {
+	background: url($baseurl + "/assets/images/courses.jpg")no-repeat 0px 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+	position: relative;
+	height: 550px;
+}
+.mb-1 {
+  margin-bottom: 1em !important;
+}
+.mb-2 {
+  margin-bottom: 2em !important;
+}
+.technologies {
+  text-align: center;
+}
+.course-content-box, .qns-box-list {
+  border: 1px solid #C2BEC6;
+  list-style: none;
+  text-align: left;
+  padding: 5px;
+  font-size: 14px;
+}
+.course-content-box .fa-check-circle, .qns-box-list .fa-check-circle {
+  float: left;
+  color: #f06292;
+  margin-top: 3px;
+}
+.course-content-box span, .qns-box-list span {
+  display: block;
+  margin-left: 1.5em;
+}
+#courses-devops .qns-box-list {
+  border: none;
+  padding-left: 0;
+}
+// Icons
+.fab.fa-html5, .fab.fa-js {
+  color: orange;
+}
+.fab.fa-css3 {
+  color: skyblue;
+}
+@media (max-width: 430px) {
+  .team-section .trainer-area {
+    padding: 0.5em;
+  }
+  .training-list .nav-tabs img {
+    height: 20px;
+  }
+  .training-list .nav-tabs a {
+    font-size: 15px;
+  }
+  .training-banner {
+    background: url($baseurl + "/assets/images/career-focussed-small.jpg")no-repeat 0px 0px;
+    height: 250px;
+    background-size: cover;
+  }
+  .courses-banner {
+    background: url($baseurl + "/assets/images/courses-small.jpg")no-repeat 0px 0px;
+    height: 250px;
+    background-size: cover;
+  }
+}

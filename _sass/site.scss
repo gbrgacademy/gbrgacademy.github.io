@@ -86,7 +86,6 @@ label {
 
 .navbar-nav {
 	float: right;
-	margin: 1.5em 4em 0 0;
 }
 
 .main-w3ls-logo a {
@@ -100,7 +99,7 @@ label {
 }
 
 header {
-	padding: 1em 0em;
+	padding-top: 1em;
 	width: 100%;
 }
 
@@ -545,7 +544,7 @@ nav.shift ul li a.active:after ,nav.shift ul li a:hover:after {
 	-o-background-size: cover;
 	-ms-background-size: cover;
 	background-size: cover;
-	min-height: 530px;
+	min-height: 550px;
 	position: relative;
 }
 
@@ -987,9 +986,9 @@ select#country1,
 	text-align: center;
 }
 
-.login-social-grids ul li a i.fa.fa-facebook,
-.login-social-grids ul li a i.fa.fa-twitter,
-.login-social-grids ul li a i.fa.fa-rss, {
+.login-social-grids ul li a i.fab.fa-facebook-f,
+.login-social-grids ul li a i.fab.fa-twitter,
+.login-social-grids ul li a i.fab.fa-rss {
 	height: 35px;
 	width: 35px;
 	border: solid 2px #212121;
@@ -1004,19 +1003,19 @@ select#country1,
 	-ms-transition: 0.5s all;
 }
 
-.login-social-grids ul li a i.fa.fa-facebook:hover {
+.login-social-grids ul li a i.fab.fa-facebook-f:hover {
 	border: solid 2px #3b5998;
 	background: #3b5998;
 	color: #FFFFFF;
 }
 
-.login-social-grids ul li a i.fa.fa-twitter:hover {
+.login-social-grids ul li a i.fab.fa-twitter:hover {
 	border: solid 2px #55acee;
 	background: #55acee;
 	color: #FFFFFF;
 }
 
-.login-social-grids ul li a i.fa.fa-rss:hover {
+.login-social-grids ul li a i.fab.fa-rss:hover {
 	border: solid 2px #f26522;
 	background: #f26522;
 	color: #FFFFFF;
@@ -1389,7 +1388,6 @@ h3.subheading-wthree {
 .top-services ul li span {
 	padding-right: 16px;
 	color: #00b6e3;
-	font-size: 20px;
 }
 
 .subscribe-w3ls {
@@ -2587,10 +2585,10 @@ h2.typoh2 {
 	text-align: center;
 }
 
-.social-icons-agileits ul li a span.fa.fa-facebook,
-.social-icons-agileits ul li a span.fa.fa-twitter,
-.social-icons-agileits ul li a span.fa.fa-linkedin,
-.social-icons-agileits ul li a span.fa.fa-github {
+.social-icons-agileits ul li a span.fab.fa-facebook-f,
+.social-icons-agileits ul li a span.fab.fa-twitter,
+.social-icons-agileits ul li a span.fab.fa-linkedin-in,
+.social-icons-agileits ul li a span.fab.fa-github {
 	height: 35px;
 	width: 35px;
 	background: #FFFFFF;
@@ -2608,22 +2606,22 @@ h2.typoh2 {
 	-ms-transition: 0.5s all;
 }
 
-.social-icons-agileits ul li a span.fa.fa-facebook:hover {
+.social-icons-agileits ul li a span.fab.fa-facebook-f:hover {
 	background: #3b5998;
 	color: #FFFFFF;
 }
 
-.social-icons-agileits ul li a span.fa.fa-twitter:hover {
+.social-icons-agileits ul li a span.fab.fa-twitter:hover {
 	background: #1da1f2;
 	color: #FFFFFF;
 }
 
-.social-icons-agileits ul li a span.fa.fa-linkedin:hover {
+.social-icons-agileits ul li a span.fab.fa-linkedin-in:hover {
 	background: #0077B5;
 	color: #FFFFFF;
 }
 
-.social-icons-agileits ul li a span.fa.fa-github:hover {
+.social-icons-agileits ul li a span.fab.fa-github:hover {
 	background: #24292e;
 	color: #FFFFFF;
 }
@@ -2782,9 +2780,6 @@ p.white-clr {
 		background: transparent;
 		padding: 6px 12px;
 	}
-	.navbar-nav {
-		margin: 1.1em 3em 0 0;
-	}
 	.banner {
 		min-height: 700px;
 	}
@@ -2848,9 +2843,6 @@ p.white-clr {
 	}
 	.navbar-default .navbar-nav>li>a {
 		padding: 6px 15px;
-	}
-	.navbar-nav {
-		margin: 1em 3em 0 0;
 	}
 	.slider-info h3 {
 		font-size: 2em;
@@ -3162,7 +3154,7 @@ p.white-clr {
 		line-height: 28px;
 		margin: 1em 0;
 	}
-	.social-icons-agileits ul li a span.fa.fa-facebook, .social-icons-agileits ul li a span.fa.fa-twitter, .social-icons-agileits ul li a span.fa.fa-linkedin {
+	.social-icons-agileits ul li a span.fab.fa-facebook-f, .social-icons-agileits ul li a span.fab.fa-twitter, .social-icons-agileits ul li a span.fab.fa-linkedin-in {
 		height: 32px;
 		width: 32px;
 		font-size: 15px;
@@ -3369,18 +3361,4 @@ p.white-clr {
 	.gallery_grid_pos h3 {
 		margin-top: 5%;
 	}
-}
-
-
-/*--responsive--*/
-
-.training-banner {
-	background: url($baseurl + "/assets/images/pipe1.jpg")no-repeat 0px 0px;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-ms-background-size: cover;
-	background-size: cover;
-	position: relative;
-	height: 420px;
 }
