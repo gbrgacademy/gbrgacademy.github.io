@@ -175,13 +175,21 @@ header {
     font-size: 15px;
   }
   .training-banner {
-    background: url($baseurl + "/assets/images/career-focussed-small.jpg")no-repeat 0px 0px;
-    height: 250px;
-    background-size: cover;
+    background: url($baseurl + "/assets/images/career-focussed-small.jpg")no-repeat 0px 0px !important;
+    height: 250px !important;
+    background-size: cover !important;
   }
   .courses-banner {
-    background: url($baseurl + "/assets/images/courses-small.jpg")no-repeat 0px 0px;
-    height: 250px;
-    background-size: cover;
+    background: url($baseurl + "/assets/images/courses-small.jpg")no-repeat 0px 0px !important;
+    height: 250px !important;
+    background-size: cover !important;
+  }
+}
+@media (max-width: 330px) { 
+  .training-list .nav-tabs a {
+    font-size: 13px;
+  }
+  .nav > li > a {
+    padding: 5px;
   }
 }
