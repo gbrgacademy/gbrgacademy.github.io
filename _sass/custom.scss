@@ -164,7 +164,7 @@ header {
 .fab.fa-css3 {
   color: skyblue;
 }
-@media (max-width: 430px) {
+@media (max-width: 768px) {
   .team-section .trainer-area {
     padding: 0.5em;
   }
@@ -176,16 +176,21 @@ header {
   }
   .training-banner {
     background: url($baseurl + "/assets/images/career-focussed-small.jpg")no-repeat 0px 0px !important;
-    height: 250px !important;
+    height: 300px !important;
     background-size: cover !important;
   }
   .courses-banner {
     background: url($baseurl + "/assets/images/courses-small.jpg")no-repeat 0px 0px !important;
-    height: 250px !important;
+    height: 300px !important;
     background-size: cover !important;
   }
 }
-@media (max-width: 330px) { 
+@media (max-width: 450px) {
+  .training-banner {
+    height: 250px !important;
+  }
+}
+@media (max-width: 360px) { 
   .training-list .nav-tabs a {
     font-size: 13px;
   }
