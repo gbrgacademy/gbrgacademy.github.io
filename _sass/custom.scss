@@ -164,6 +164,17 @@ header {
 .fab.fa-css3 {
   color: skyblue;
 }
+
+.training-list {
+  margin: 2em 0;
+}
+.training-list .card {
+  padding: 1em;
+}
+.training-list .card img {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .team-section .trainer-area {
     padding: 0.5em;
