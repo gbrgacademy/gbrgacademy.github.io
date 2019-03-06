@@ -85,26 +85,26 @@ header {
   background: #00b6e3;
 }
 /* Training */
-.training-list {
+.courses-list {
   padding: 2em 0;
 }
 
-.training-list .tab-content {
+.courses-list .tab-content {
   padding: 1em;
   box-shadow: 1px 1px 4px #111;
 }
 
-.training-list .nav-tabs img {
+.courses-list .nav-tabs img {
   height: 50px;
 }
 
-.training-list .tab-content .row {
+.courses-list .tab-content .row {
   margin: 0;
 }
-.training-list .tab-content .qns-box {
+.courses-list .tab-content .qns-box {
   margin-bottom: 1.5em;
 }
-.training-list .tab-content .col-md-6, .training-list .tab-content .col-sm-12 {
+.courses-list .tab-content .col-md-6, .courses-list .tab-content .col-sm-12 {
   padding: 0;
 }
 
@@ -168,10 +168,10 @@ header {
   .team-section .trainer-area {
     padding: 0.5em;
   }
-  .training-list .nav-tabs img {
+  .courses-list .nav-tabs img {
     height: 20px;
   }
-  .training-list .nav-tabs a {
+  .courses-list .nav-tabs a {
     font-size: 15px;
   }
   .training-banner {
@@ -191,7 +191,7 @@ header {
   }
 }
 @media (max-width: 360px) { 
-  .training-list .nav-tabs a {
+  .courses-list .nav-tabs a {
     font-size: 13px;
   }
   .nav > li > a {
