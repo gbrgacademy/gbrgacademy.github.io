@@ -146,14 +146,16 @@
   list-style: none;
   text-align: left;
   padding: 5px;
-  font-size: 14px;
+  font-size: 0.8em;
 }
-.course-content-box .fa-check-circle, .qns-box-list .fa-check-circle {
+.course-content-box .fa-check-circle, .qns-box-list .fa-check-circle,
+.card .card-body .card-content-list .fa-star {
   float: left;
   color: #f06292;
-  margin-top: 3px;
+  margin-top: 4px;
+  font-size: 1em;
 }
-.course-content-box span, .qns-box-list span {
+.course-content-box span, .qns-box-list span, .card .card-body .card-content-list span {
   display: block;
   margin-left: 1.5em;
 }
@@ -173,7 +175,14 @@
   margin: 2em 0;
 }
 .training-list .card {
-  padding: 1em;
+  padding: 0.5em;
+}
+.training-list .card .card-body {
+  padding: 0.5em 0;
+}
+.training-list .card .card-content-list {
+  list-style: none;
+  font-size: 0.8em;
 }
 .training-list .card img {
   width: 100%;
