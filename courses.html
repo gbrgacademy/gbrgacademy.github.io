@@ -21,38 +21,35 @@ permalink: /courses/
   
   {% include elevator-pitch.html text="Career Oriented Courses" %}
 
-  <div class="container">
-    <div class="courses-list">
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active">
-          <a href="#courses-front-end" aria-controls="courses-front-end" role="tab" data-toggle="tab">
-            <img src="{{ site.url }}/assets/icons/front-end.png" alt="Front End" />Front-End
-          </a>
-        </li>
-        <li role="presentation">
-          <a href="#courses-back-end" aria-controls="courses-back-end" role="tab" data-toggle="tab">
-            <img src="{{ site.url }}/assets/icons/back-end.png" alt="Back End" /> Back-End
-          </a>
-        </li>
-        <li role="presentation">
-          <a href="#courses-devops" aria-controls="courses-devops" role="tab" data-toggle="tab">
-            <img src="{{ site.url }}/assets/icons/dev-ops.png" alt="DevOps" /> DevOps
-          </a>
-        </li>
-      </ul>
-    
-      <!-- Tab panes -->
-      <div class="tab-content row">
-        <div role="tabpanel" class="tab-pane fade in active" id="courses-front-end">
-          {% include courses-front-end.html %}
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="courses-back-end">
-          {% include courses-back-end.html %}
-        </div>
-        <div role="tabpanel" class="tab-pane fade" id="courses-devops">
-          {% include courses-devops.html %}
-        </div>
+  <div class="container courses-list">
+    <!-- Nav tabs -->
+    <nav>
+      <div class="nav nav-tabs" id="courses-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-front-end-tab" data-toggle="tab" 
+          href="#courses-front-end" role="tab" aria-controls="nav-front-end" aria-selected="true">
+          <img src="{{ site.url }}/assets/icons/front-end.png" alt="Front End" />Front-End 
+        </a>
+        <a class="nav-item nav-link" id="nav-back-end-tab" data-toggle="tab" 
+          href="#courses-back-end" role="tab" aria-controls="courses-back-end" aria-selected="false">
+        <img src="{{ site.url }}/assets/icons/back-end.png" alt="Back End" /> Back-End
+        </a>
+        <a class="nav-item nav-link" id="nav-devops-tab" data-toggle="tab" 
+          href="#courses-devops" role="tab" aria-controls="courses-devops" aria-selected="false">
+        <img src="{{ site.url }}/assets/icons/dev-ops.png" alt="DevOps" /> DevOps
+        </a>
+      </div>
+    </nav>
+  
+    <!-- Tab panes -->
+    <div class="tab-content" id="courses-tabContent">
+      <div role="tabpanel" class="tab-pane fade show active" id="courses-front-end">
+        {% include courses-front-end.html %}
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="courses-back-end">
+        {% include courses-back-end.html %}
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="courses-devops">
+        {% include courses-devops.html %}
       </div>
     </div>
   </div>
