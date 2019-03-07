@@ -8,8 +8,8 @@ title: Contact
     <div class="col-md-4 contact-info mb-1">
       <i class="fas fa-envelope"></i>
       <h3 class="mb-1">Have any Enquiry? Send a Mail!</h3>
-      
-      <a href="https://wa.me/919922910116" class="whatsapp">
+
+      <a href="https://wa.me/919764511559" class="whatsapp">
         <i class="fab fa-whatsapp-square"></i>
       </a>
       <a href="https://telegram.me/coolbrg" target="_blank" class="telegram">
@@ -20,10 +20,18 @@ title: Contact
     <div class="col-md-8">
       <form action="https://formspree.io/budhramgurung@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="GbrG Academy New Query!" />
-        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
-        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
-        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-        <textarea class="form-control mb-1" rows="5" id="comment" placeholder="Type your query here ..."></textarea>
+        <input type="text" class="form-control" id="name" placeholder="Enter Full Name"
+          name="name" pattern="^[A-Za-z\s]{1,}[\.]{0,1}[A-Za-z\s]{0,}$" required>
+
+        <input type="text" class="form-control" id="phone" placeholder="Enter Phone No (10 Digits)"
+          name="phone" pattern="[0-9]{10}">
+
+        <input type="email" class="form-control" id="email" placeholder="Enter Email"
+          name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+        <textarea class="form-control mb-1" rows="5" id="comment"
+          placeholder="Type your query here ..." pattern=".{3,}" required></textarea>
+
         <div class="submit text-center">
           <button type="submit" class="btn btn-default">Submit</button>
         </div>
