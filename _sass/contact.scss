@@ -1,0 +1,39 @@
+.contact{
+  padding: 4em;
+}
+.contact-info {
+  background: #ff9b00;
+  padding: 3em;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-9{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact input {
+  margin-bottom: 1em;
+}
+.contact button{
+  background: #f06292;
+  color: #fff;
+  font-weight: 600;
+}
+.contact button:focus{
+  box-shadow:none;
+}
+
+.contact .fa-envelope, .contact .fa-whatsapp-square, .contact .fa-telegram {
+  font-size: 3em;
+} 
+.contact a.whatsapp {
+  color: green;
+}

@@ -62,10 +62,11 @@
   font-weight: 700;
   width: 100%;
 }
-.elevator-pitch.bg-blue.pitch-small {
-  padding: 1em;
-  font-size: 22px;
+.bg-blue {
   background: #00b6e3;
+}
+.pitch-small {
+  font-size: 22px;
 }
 .mb-1 {
   margin-bottom: 1em !important;
@@ -127,4 +128,5 @@
 
 @import "trainings";
 @import "courses";
+@import "contact";
 @import "responsive";

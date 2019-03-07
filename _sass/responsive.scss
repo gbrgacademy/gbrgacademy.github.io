@@ -23,6 +23,12 @@
   .training-banner {
     height: 250px !important;
   }
+  .contact {
+    padding: 1.5em;
+  }
+  .contact .contact-info {
+    border-radius: 0.5em;
+  }
 }
 @media (max-width: 360px) { 
   .courses-list .nav-tabs a {
