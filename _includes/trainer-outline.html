@@ -7,7 +7,7 @@
           <br><br>
           <blockquote><i>&#8220;{{ include.trainer.quote }}&#8221;</i></blockquote>
         {% endunless %}
-        <br><br>
+        <br>
         {{ include.trainer.intro_body }}
       </p>
     </div>
@@ -37,7 +37,7 @@
         <h4>Expertise</h4>
         <ul>
           {% for skill in include.trainer.expertise %}
-            <li><span class="fa fa-check-square-o" aria-hidden="true"></span></span>{{ skill }}</li>
+            <li><span class="fas fa-star" aria-hidden="true"></span></span>{{ skill }}</li>
           {% endfor %}
         </ul>
       </div>

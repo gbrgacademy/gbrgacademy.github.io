@@ -1148,7 +1148,6 @@ h5.main-w3l-title {
 }
 
 .about-section,
-.stats,
 .testimonials-section,
 .team-section,
 .gallery,
@@ -1312,41 +1311,6 @@ h3.subheading-wthree {
 
 /*--// about --*/
 
-
-/*-- stats --*/
-
-.stats {
-	background: url($baseurl + "/assets/images/stats.jpg")no-repeat 0px 0px;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-ms-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.stat-grids p {
-	font-size: 2.5em;
-	font-weight: bolder;
-	letter-spacing: 3px;
-	color: #00b6e3;
-}
-
-.stat-grids h3 {
-	font-size: 1.4em;
-	color: #ffffff;
-	letter-spacing: 2px;
-	font-weight: 500;
-	margin-top: 0.5em;
-}
-
-.stats {
-	flex-basis: 30%;
-	-webkit-flex-basis: 30%;
-}
-
-
-/*-- //stats --*/
 
 
 /*--services--*/
@@ -2784,7 +2748,6 @@ p.white-clr {
 		min-height: 700px;
 	}
 	.about-section,
-	.stats,
 	.testimonials-section,
 	.team-section,
 	.gallery,
@@ -2938,7 +2901,6 @@ p.white-clr {
 		min-height: 300px;
 	}
 	.about-section,
-	.stats,
 	.testimonials-section,
 	.team-section,
 	.gallery,
@@ -3122,7 +3084,6 @@ p.white-clr {
 
 @media(max-width:480px) {
 	.about-section,
-	.stats,
 	.testimonials-section,
 	.team-section,
 	.gallery,
