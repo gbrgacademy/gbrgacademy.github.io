@@ -144,6 +144,10 @@ ul, ol {
   display: flex;
   justify-content: space-between;
 }
+.pricing-model-section .serv-right i {
+  font-size: 20px;
+  color: darkslategrey;
+}
 
 @import "trainings";
 @import "courses";
