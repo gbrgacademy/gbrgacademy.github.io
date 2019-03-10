@@ -29,6 +29,13 @@
   .contact .contact-info {
     border-radius: 0.5em;
   }
+  #blogs-page .container .col-sm-12 {
+    padding: 0 5px;
+  }
+  .post-info blockquote p {
+    font-size: 0.9em;
+    padding: 0 2em;
+  }
 }
 @media (max-width: 360px) { 
   .courses-list .nav-tabs a {

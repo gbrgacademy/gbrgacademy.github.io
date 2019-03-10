@@ -1,0 +1,44 @@
+<div class="col-md-6 col-sm-12">
+  <div class="blog-card">
+    <div class="card-body">
+      <div class="border-bottom py-2">
+        <h5 class="blog-card-title font-weight-bold">
+          <a href="{{ post.url | prepend: site.url }}">{{ include.post.title }}</a>
+        </h5>
+        <div class="blog-card-heading">
+          <span><i class="fas fa-user mr-2"></i>{{ include.post.author }}</span>
+          <p>
+            <span><i class="fas fa-calendar-alt"></i>
+              {{ include.post.date | date_to_long_string }}
+            </span>
+            <small class="text-muted">
+              {% include read-time.html
+                                content=include.post.content
+                                bracket_start='('
+                                bracket_end=')'
+                                unit='min'
+                                approx='true'
+                                caption='read'
+                    %}
+            </small>
+          </p>
+        </div>
+      </div>
+      <p class="blog-card-text mt-3">
+        {{ include.post.content | strip_html | truncatewords: 30 }}
+        <a href="{{ post.url | prepend: site.url }}" class="blog-btn text-danger">Read more</a>
+      </p>
+      <p class="post-tags">
+        <i class="fa fa-tags"></i>
+        {% for tag in include.post.tags %}
+        {% if page.is_tags_page %}
+        {% assign tag_url_base = "" %}
+        {% else %}
+        {% assign tag_url_base = "/blogs/tags/" %}
+        {% endif %}
+        <a href="{{ tag_url_base }}#{{ tag | uri_escape }}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      </p>
+    </div>
+  </div>
+</div>

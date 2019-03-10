@@ -1,4 +1,18 @@
 /* Your Custom SCSS */
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.slider-info h2 {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: 'Righteous', cursive;
+  line-height: 1.15em;
+  font-family: 'Righteous', cursive;
+}
 .navbar-nav {
   margin-left: 30%;
 }
@@ -9,7 +23,7 @@
   color: #111;
   font-weight: 600;
 }
-#about-page .banner, #trainers-page .banner {
+#about-page .banner, #trainers-page .banner, #blog-post-page .banner, #blogs-page .banner {
   min-height: 180px !important;
 }
 .team-section .trainer-area {
@@ -126,7 +140,13 @@
   color: yellow;
 }
 
+.pricing-model-section {
+  display: flex;
+  justify-content: space-between;
+}
+
 @import "trainings";
 @import "courses";
 @import "contact";
+@import "blogs";
 @import "responsive";
