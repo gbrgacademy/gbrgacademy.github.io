@@ -77,7 +77,7 @@ Our mission is to
 Though _Hard Work_ is the essential element to _Succeed_, we believe following are equally responsible.
 
 {% include blogs/quote.html 
-           quote="1. Right Attitude<br>2. Balanced Disipline<br>3. Extraordinary Determination<br>4. Positive Approach"
+           quote="1. Right Attitude<br>2. Balanced Discipline<br>3. Extraordinary Determination<br>4. Positive Approach"
            quote_with_bar=true
 %}
 

@@ -94,12 +94,16 @@ img.centered {
   padding: 0;
   width: 60%;
 }
-.post-info .opening-text {
+.post-title {
+  color: #f06292;
+  font-family: 'Righteous', cursive;
+}
+.post-body .opening-text {
   font-size: 18px;
   color: #111;
   font-style: italic;
 }
-.post-info {
+.post-body {
   h1, h2, h3, h4, h5, h6 {
     margin: 2rem 0;
   }
