@@ -1,4 +1,9 @@
 /* Your Custom SCSS */
+@font-face {
+  font-family: gameOfThrones;
+  src: url($baseurl + "/assets/fonts/game-of-thrones.ttf");
+}
+
 ul, ol {
   margin: 0;
   padding: 0;
@@ -24,7 +29,7 @@ ul, ol {
   font-weight: 600;
 }
 #about-page .banner, #trainers-page .banner, #blog-post-page .banner, #blogs-page .banner {
-  min-height: 180px !important;
+  min-height: 250px !important;
 }
 .team-section .trainer-area {
   padding: 1.5em;
@@ -147,6 +152,18 @@ ul, ol {
 .pricing-model-section .serv-right i {
   font-size: 20px;
   color: darkslategrey;
+}
+
+.slider-info h3 {
+  font-family: gameOfThrones;
+  font-weight: 600;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  line-height: 60px;
+}
+.slider-info p {
+  font-family: 'Righteous', cursive;
+  font-size: 1.5em;
 }
 
 @import "trainings";
