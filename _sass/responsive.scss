@@ -9,12 +9,12 @@
     font-size: 15px;
   }
   .training-banner {
-    background: url($baseurl + "/assets/images/career-focussed-small.jpg")no-repeat 0px 0px !important;
+    background: url($cdnbaseurl + "career-focussed-small.jpg")no-repeat 0px 0px !important;
     height: 300px !important;
     background-size: cover !important;
   }
   .courses-banner {
-    background: url($baseurl + "/assets/images/courses-small.jpg")no-repeat 0px 0px !important;
+    background: url($cdnbaseurl + "courses-small.jpg")no-repeat 0px 0px !important;
     height: 300px !important;
     background-size: cover !important;
   }

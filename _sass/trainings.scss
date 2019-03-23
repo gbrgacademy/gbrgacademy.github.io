@@ -15,7 +15,7 @@
   width: 100%;
 }
 .training-banner {
-	background: url($baseurl + "/assets/images/career-focussed.jpg")no-repeat 0px 0px;
+	background: url($cdnbaseurl + "career-focussed.jpg") no-repeat 0px 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

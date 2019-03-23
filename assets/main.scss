@@ -3,5 +3,7 @@
 ---
 
 $baseurl: "{{ site.baseurl }}";
+$cdnbaseurl: "https://gbrgacademy.sirv.com/Images/gbrgacademy/";
+
 @import "site";
 @import "custom";
