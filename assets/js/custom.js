@@ -32,6 +32,7 @@ $(function(){
       $('#page-body').removeClass('mt-20em');
     }
   });
+  $('.loader').delay(1000).fadeOut("slow");
 });
 
 $(window).load(function () {
