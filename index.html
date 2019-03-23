@@ -3,7 +3,9 @@ layout: default
 title: Home
 ---
 
+{% capture brand_line %}{{ site.brand_line }}{% endcapture %}
 {% include banner.html %}
+{% include elevator-pitch.html text=brand_line %}
 {% include about-trailer.html %}
 {% include upcoming.html action_type="Workshop" action_name="Build Professional Website" %}
 {% include services-trailer.html %}
