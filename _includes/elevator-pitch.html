@@ -1,3 +1,7 @@
 <div class="elevator-pitch {{ include.class }}">
-  {{ site.brand_line }}
+  {% if include.text != null %}
+    {{ include.text }}
+  {% else %}
+    {{ site.brand_line }}
+  {% endif %}
 </div>
