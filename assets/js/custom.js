@@ -3,11 +3,10 @@
 $(function(){
   $('.counter').countUp();
 
-  $("#slider3").responsiveSlides({
+  $("#slider").responsiveSlides({
     auto: true,
     pager: true,
-    nav: false,
-    speed: 500,
+    speed: 1000,
     namespace: "callbacks"
   });
 
@@ -32,14 +31,9 @@ $(function(){
       $('#page-body').removeClass('mt-20em');
     }
   });
+
   $('.loader').delay(1000).fadeOut("slow");
 });
 
 $(window).load(function () {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    start: function (slider) {
-      $('body').removeClass('loading');
-    }
-  });
 });
