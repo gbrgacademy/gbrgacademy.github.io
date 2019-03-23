@@ -166,7 +166,7 @@ ul, ol {
   justify-content: space-between;
 }
 .pricing-model-section .serv-right i {
-  font-size: 20px;
+  font-size: 30px;
   color: darkslategrey;
 }
 
@@ -180,6 +180,13 @@ ul, ol {
 .slider-info p {
   font-family: 'Righteous', cursive;
   font-size: 1.5em;
+}
+.training-banner .slider-info h3, .courses-banner .slider-info h3 {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  text-align: center;
 }
 
 @import "box-preloader";
