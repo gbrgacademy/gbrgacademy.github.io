@@ -22,6 +22,10 @@
     font-size: 1.8em;
     line-height: 40px;
   }
+  .navbar-nav {
+    margin-left: 0;
+    float: none;
+  }
 }
 @media (max-width: 450px) {
   .training-banner {
@@ -46,6 +50,9 @@
   }
   .slider-info h3 {
     font-size: 1.1em;
+  }
+  .navbar-nav {
+    font-size: 13px;
   }
 }
 @media (max-width: 360px) { 

@@ -18,8 +18,23 @@ ul, ol {
   line-height: 1.15em;
   font-family: 'Righteous', cursive;
 }
+.navbar {
+  padding: 0 1rem;
+}
+.navbar.navbar-expand-lg {
+  height: 60px;
+}
+.navbar .navbar-brand {
+  height: inherit;
+}
+.navbar .navbar-brand img {
+  height: 100%;
+}
 .navbar-nav {
   margin-left: 30%;
+}
+.mt-20em {
+  margin-top: 20em;
 }
 .social-icons-agileits {
   margin-top: 1em;

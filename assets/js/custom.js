@@ -21,6 +21,17 @@ $(function(){
   $().UItoTop({
     easingType: 'easeOutQuart'
   });
+
+  // onchange of navbar-collapse button
+  $('.navbar-toggler').on('click', function(){
+    var navClasses = $('#navbarSupportedContent').attr("class").split(' ');
+    
+    if (navClasses.indexOf("show") == -1) {
+      $('#page-body').addClass('mt-20em');
+    } else {
+      $('#page-body').removeClass('mt-20em');
+    }
+  });
 });
 
 $(window).load(function () {
