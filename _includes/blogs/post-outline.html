@@ -7,21 +7,19 @@
         </h5>
         <div class="blog-card-heading">
           <span><i class="fas fa-user mr-2"></i>{{ include.post.author }}</span>
-          <p>
-            <span><i class="fas fa-calendar-alt"></i>
-              {{ include.post.date | date_to_long_string }}
-            </span>
-            <small class="text-muted">
-              {% include read-time.html
-                                content=include.post.content
-                                bracket_start='('
-                                bracket_end=')'
-                                unit='min'
-                                approx='true'
-                                caption='read'
-                    %}
-            </small>
-          </p>
+          <span><i class="fas fa-calendar-alt"></i>
+            {{ include.post.date | date_to_long_string }}
+          </span>
+          <small class="text-muted">
+            {% include read-time.html
+                              content=include.post.content
+                              bracket_start='('
+                              bracket_end=')'
+                              unit='min'
+                              approx='true'
+                              caption='read'
+                  %}
+          </small>
         </div>
       </div>
       <p class="blog-card-text mt-3">
