@@ -14,17 +14,7 @@
           </div>
         </div>
         <div class="col-md-6 mt-2">
-          <form action='http://www.feedio.co/@gbrbacademy/verify' id='subscribe_widget_gbrbacademy' method='post'
-            class="subscription-form">
-            <h5 class="mb-1">Receive Important Updates</h5>
-            <input name='email' type='text' placeholder="Enter Your Email ..." class="form-control mb-1">
-            <input type='submit' class="btn btn-sm" value='Subscribe'>
-            <p style='font-size:0.9em'>
-              Powered by
-              <a
-                href='http://www.feedio.co?utm_source=gbrbacademy_site&utm_medium=widget&utm_campaign=powered_by_feedio_html_email_widget'>Feedio</a>
-            </p>
-          </form>
+          {% include subscribe-form.html %}
         </div>
       </div>
       <div class="clearfix"> </div>
