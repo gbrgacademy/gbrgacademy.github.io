@@ -220,3 +220,28 @@ input[type="submit"] {
   font-family: 'Montserrat', sans-serif;
 }
 
+.featured-video {
+  h5.main-w3l-title {
+    margin-bottom: 0.4em;
+  }
+  h5.main-w3l-title, h3.subheading-wthree, .about-top {
+    text-align: center;
+  }
+  .about-top {
+    margin: 0;
+  }
+}
+.youtube-subscribe img {
+  padding: 1em;
+  box-shadow: 2px 2px 15px #111;
+  border-radius: 10px;
+}
+.embed-responsive {
+  box-shadow: 1px 2px 20px #111;
+}
+
+.about-section {
+  background: #FFFFF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFF7, #FFFFF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFF7, #FFFFF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
