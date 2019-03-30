@@ -3,6 +3,13 @@
   src: url($baseurl + "/assets/fonts/game-of-thrones.ttf");
 }
 
+// modern wedding color pallete https://www.color-hex.com/color-palette/75962
+$color1: #202b78;
+$color2: #f40873;
+$color3: #ffede1;
+$color4: #7ab4df;
+$color5: #7e7e7e;
+
 ul, ol {
   margin: 0;
   padding: 0;
@@ -74,7 +81,7 @@ ul, ol {
 .navbar-nav>li.active,
 .navbar-default .navbar-nav>li:hover,
 .navbar-default .navbar-nav>li:focus {
-	background: #f06292;
+	background: $color4;
 	color: white !important;
 }
 .nav > li > a {
@@ -86,7 +93,7 @@ ul, ol {
 }
 .elevator-pitch {
   padding: 15px;
-  background: #f06292;
+  background: $color2;
   color: white;
   font-size: 20px;
   text-align: center;
@@ -115,7 +122,7 @@ ul, ol {
 .course-content-box .fa-check-circle, .qns-box-list .fa-check-circle,
 .card .card-body .card-content-list .fa-star {
   float: left;
-  color: #f06292;
+  color: $color2;
   margin-top: 4px;
   font-size: 1em;
 }
@@ -136,7 +143,7 @@ ul, ol {
 }
 
 // upcoming actions
-.upcoming-events {
+#upcoming-events {
   background: url($baseurl + "/assets/images/stats.jpg")no-repeat 0px 0px;
   padding: 2em 0;
 	-webkit-background-size: cover;
@@ -161,7 +168,7 @@ ul, ol {
     }
   }
 }
-.upcoming-events .caption {
+#upcoming-events .caption {
   font-size: 2.5em;
   text-transform: capitalize;
   font-family: 'Righteous', cursive;
@@ -170,7 +177,7 @@ ul, ol {
   color: #fff;
   letter-spacing: 1px;
 }
-.upcoming-events .announcement-text {
+#upcoming-events .announcement-text {
   font-size: 2em;
   text-transform: capitalize;
   text-align: left;
@@ -223,11 +230,11 @@ input[type="submit"] {
   letter-spacing: 1px;
   text-transform: uppercase;
   display: inline;
-  background: #f06292;
-  border: 1px solid #f06292;
+  background: $color2;
+  border: 1px solid $color2;
   cursor: pointer;
   outline: none;
-  width: 40%;
+  width: 60%;
   text-align: center;
   border-radius: 0px;
   transition: 0.5s all;
@@ -238,7 +245,7 @@ input[type="submit"] {
   font-family: 'Montserrat', sans-serif;
 }
 
-.featured-video {
+#featured-video {
   background: #f5f8fc;
 
   h5.main-w3l-title {
@@ -318,7 +325,7 @@ input[type="submit"] {
 
   .mission h4, .vision h4 {
     font-size: 5em;
-    color: deeppink;
+    color: $color2;
   }
   .mission .caption, .vision .caption {
     color: #6f6f6f;
