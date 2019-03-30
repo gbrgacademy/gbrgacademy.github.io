@@ -1,0 +1,15 @@
+<div id="latest-blogs" class="container py-4 text-center">
+  <h5 class="main-w3l-title">Latest Blogs</h5>
+
+  {% assign blogs_count = site.posts.size %}
+
+  <div class="row">
+    {% for post in site.posts limit: 3 %}
+      {% include blogs/post-outline.html post=post %}
+    {% endfor %}
+  </div>
+
+  {% if blogs_count > 3 %}
+    <a href="/blogs" class="btn btn-secondary mt-4">View More</a>
+  {% endif %}
+</div>
