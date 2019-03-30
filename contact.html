@@ -4,7 +4,7 @@ title: Contact
 ---
 <div class="container contact">
   <div class="row mb-2">
-    {% include elevator-pitch.html text="Contact Us!" class="bg-blue mb-1" %}
+    {% include elevator-pitch.html text="Contact Us!" class="bg-gray mb-1" %}
     <div class="col-md-4 contact-info mb-1">
       <i class="fas fa-envelope"></i>
       <h3 class="mb-1">Have any Enquiry? Send a Mail!</h3>
@@ -20,22 +20,25 @@ title: Contact
     <div class="col-md-8">
       <form action="https://formspree.io/budhramgurung@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="GbrG Academy New Query!" />
-        <input type="text" class="form-control" id="name" placeholder="Enter Full Name"
+        <input type="text" class="form-control mb-1" id="name" placeholder="Enter Full Name"
           name="Name" pattern="^[A-Za-z\s]{1,}[\.]{0,1}[A-Za-z\s]{0,}$" required>
 
-        <input type="text" class="form-control" id="phone" placeholder="Enter Phone No (10 Digits)"
+        <input type="text" class="form-control mb-1" id="phone" placeholder="Enter Phone No (10 Digits)"
           name="Phone" pattern="[0-9]{10}">
 
-        <input type="email" class="form-control" id="email" placeholder="Enter Email"
+        <input type="email" class="form-control mb-1" id="email" placeholder="Enter Email"
           name="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
 
         <textarea class="form-control mb-1" rows="5" id="comment"
           name="Message" placeholder="Type your query here ..." pattern=".{3,}" required></textarea>
 
         <div class="submit text-center">
-          <button type="submit" class="btn btn-default">Submit</button>
+          <button type="submit" class="btn btn-default rounded-0">Submit</button>
         </div>
       </form>
     </div>
+  </div>
+  <div class="row">
+    {% include subscribe.html class_name="bg-gray" %}
   </div>
 </div>

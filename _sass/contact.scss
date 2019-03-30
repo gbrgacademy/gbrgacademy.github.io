@@ -2,7 +2,7 @@
   padding: 4em;
 }
 .contact-info {
-  background: #ff9b00;
+  background: $color3;
   padding: 3em;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -19,11 +19,8 @@
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
-.contact input {
-  margin-bottom: 1em;
-}
 .contact button{
-  background: #f06292;
+  background: $color2;
   color: #fff;
   font-weight: 600;
 }
@@ -35,5 +32,5 @@
   font-size: 3em;
 } 
 .contact a.whatsapp {
-  color: green;
+  color: #25d366;
 }

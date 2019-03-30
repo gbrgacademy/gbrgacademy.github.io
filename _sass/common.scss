@@ -10,6 +10,13 @@ $color3: #ffede1;
 $color4: #7ab4df;
 $color5: #7e7e7e;
 
+.bg-purple {
+  background: $color1 !important;
+}
+.bg-gray {
+  background: $color5 !important;
+}
+
 ul, ol {
   margin: 0;
   padding: 0;
@@ -35,6 +42,7 @@ ul, ol {
 }
 .navbar .navbar-brand img {
   height: 100%;
+  margin-left: 20%;
 }
 .navbar-nav {
   margin-left: 30%;
