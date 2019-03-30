@@ -88,7 +88,7 @@ ul, ol {
   padding: 15px;
   background: #f06292;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 5px;
   margin: 0;
@@ -138,13 +138,28 @@ ul, ol {
 // upcoming actions
 .upcoming-events {
   background: url($baseurl + "/assets/images/stats.jpg")no-repeat 0px 0px;
-  padding: 4em 0;
+  padding: 2em 0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-ms-background-size: cover;
 	background-size: cover;
   background-attachment: fixed;
+
+  .event {
+    font-size: 14px;
+
+    .event-name {
+      border-color: rgba(0, 0, 0, 0);
+      margin-bottom: 0;
+      font-weight: bold;
+      padding: 0.60rem;
+      font-size: 14px;
+    }
+    .event-link {
+      padding: .1rem .2rem;
+    }
+  }
 }
 .upcoming-events .caption {
   font-size: 2.5em;
@@ -175,7 +190,7 @@ ul, ol {
 .slider-info h3 {
   font-family: gameOfThrones;
   font-weight: 600;
-  font-size: 2.5em;
+  font-size: 2.1em;
   letter-spacing: 5px;
   line-height: 60px;
 }
@@ -313,4 +328,3 @@ input[type="submit"] {
     font-family: 'Righteous', cursive;
   }
 }
-

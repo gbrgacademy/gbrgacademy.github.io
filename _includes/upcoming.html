@@ -1,8 +1,32 @@
 <div class="upcoming-events">
   <div class="container">
-    <h5 class="caption">Upcoming Events</h5>
-    <h5 class="announcement-text">{{ include.action_name }}&nbsp;({{ include.action_type }})
-    </h5>
-    <a href="/trainings" role="button" class="btn btn-info">Know More</a>
+    <h5 class="caption text-center">Upcoming Events</h5>
+    <!-- <div class="row"> -->
+      <div class="row d-flex flex-row flex-wrap justify-content-center">
+        {% assign upcoming_events_count = site.data.upcoming-events.size %}
+        
+        {% for event in site.data.upcoming-events limit: 3 %}
+          <div class="col-md-4 col-sm-12 mb-1">
+            <div class="card event rounded-0">
+              <div class="alert alert-dark event-name rounded-0" role="alert">
+                {{ event.name }}
+              </div>
+              <div class="text-center p-1">
+                <div class="float-left">
+                  <i class="fas fa-calendar-alt"></i>&nbsp;{{ event.date }}
+                  <span class="badge badge-dark badge-pill px-4 p-2"><i class="fas fa-volume-up"></i> &nbsp; {{ event.type }}</span>
+                </div>
+                <a href="{{ event.link }}" target="_blank"
+                   class="btn btn-primary btn-sm event-link float-right"><i class="fas fa-external-link-alt"></i>&nbsp;</a>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+
+        {% if upcoming_events_count > 3 %}
+          <a href="/events" target="_blank" class="btn btn-primary">View More Events</a>
+        {% endif %}
+      <!-- </div> -->
+    </div>
   </div>
 </div>
