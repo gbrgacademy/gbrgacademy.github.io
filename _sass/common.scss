@@ -108,9 +108,8 @@ ul, ol {
 .mb-2 {
   margin-bottom: 2em !important;
 }
-
-.bg-shadow-lg-light {
-  box-shadow: 2px 2px 28px 4px rgba(0,0,0,0.06);
+.bg-shadow-lg {
+  box-shadow: 2px 0px 20px 0px #757575;
 }
 
 .course-content-box .fa-check-circle, .qns-box-list .fa-check-circle,
@@ -137,7 +136,7 @@ ul, ol {
 }
 
 // upcoming actions
-.upcoming-actions {
+.upcoming-events {
   background: url($baseurl + "/assets/images/stats.jpg")no-repeat 0px 0px;
   padding: 4em 0;
 	-webkit-background-size: cover;
@@ -147,7 +146,7 @@ ul, ol {
 	background-size: cover;
   background-attachment: fixed;
 }
-.upcoming-actions .caption {
+.upcoming-events .caption {
   font-size: 2.5em;
   text-transform: capitalize;
   font-family: 'Righteous', cursive;
@@ -156,7 +155,7 @@ ul, ol {
   color: #fff;
   letter-spacing: 1px;
 }
-.upcoming-actions .announcement-text {
+.upcoming-events .announcement-text {
   font-size: 2em;
   text-transform: capitalize;
   text-align: left;
@@ -241,6 +240,7 @@ input[type="submit"] {
 .learning-ways {
   .highlight-box {
     padding-top: 1em;
+    box-shadow: 2px 0px 20px 0px #757575;
   }
   .highlight-box img {
     height: 150px;
@@ -261,3 +261,56 @@ input[type="submit"] {
     padding: 5px 0;
   }
 }
+
+#about {
+  .founder-section {
+    width: 100%;
+    height: auto;
+
+    button {
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+ 
+  .about-content {
+    .text-lg-left {
+      font-size: 2em;
+      font-weight: 600;
+    }
+
+    .offering li {
+      list-style: none;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: block;
+      margin-top: 1em;
+      color: #777;
+
+      span {
+        display: inline-block;
+        padding-right: 10px;
+        color: #00b6e3;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .mission h4, .vision h4 {
+    font-size: 5em;
+    color: deeppink;
+  }
+  .mission .caption, .vision .caption {
+    color: #6f6f6f;
+    font-size: 18px;
+  }
+  .mission .heading, .vision .heading {
+    font-family: 'Righteous', cursive;
+  }
+}
+
