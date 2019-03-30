@@ -1,31 +1,16 @@
 <footer> 
- <div class="footer-agileits-w3layouts">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <a href="/">
-            <img src="{{ site.baseurl }}/assets/images/logo.png" alt="GbrG Academy" />
+  <div class="container">
+    <div class="row social_contacts justify-content-center">
+      {% for social_hash in site.social_contacts %}
+        {% assign social  = social_hash[1] %}
+        <div class="mr-2">
+          <a href="{{ social.url }}" target="_blank" class="gray hint--top" data-hint="{{ social.label }}">
+            <i class="{{ social.icon }}"></i>
           </a>
-          <div class="social-icons-agileits">
-            <ul>
-              <li><a href="https://www.facebook.com/gbrgacademy" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
-              <li><a href="http://twitter.com/gbrgacademy" target="_blank"><span class="fab fa-twitter"></span></a></li>
-              <li><a href="http://github.com/gbrgacademy" target="_blank"><span class="fab fa-github"></span></a></li>
-              <li><a href="http://linkedin.com/company/gbrgacademy" target="_blank"><span class="fab fa-linkedin-in"></span></a></li>
-            </ul>
-          </div>
         </div>
-        <div class="col-md-6 mt-2">
-          {% include subscribe-form.html %}
-        </div>
-      </div>
-      <div class="clearfix"> </div>
-    </div>
-  </div>
-  <div class="copyright-w3layouts">
-    <div class="container">
-      <p>&copy; 2019 GbrG Academy. All Rights Reserved</a></p>
+      {% endfor %}
     </div>
   </div>
 </footer>
+<p class="copyright text-center">&copy; 2019 GbrG Academy. All Rights Reserved</a></p>
 <!-- //Footer -->

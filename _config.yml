@@ -8,8 +8,32 @@ brand_line: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-136757095-1 
-twitter_username: jekyllrb
-github_username:  jekyll
+
+social_contacts:
+  twitter:
+    url: "https://twitter.com/gbrgacademy/"
+    label: "Twitter"
+    icon: "fab fa-twitter-square"
+  facebook:
+    url: "https://www.facebook.com/gbrgacademy"
+    label: "Facebook"
+    icon: "fab fa-facebook-square"
+  github:
+    url: "https://github.com/gbrgacademy/"
+    label: "GitHub"
+    icon: "fab fa-github-square"    
+  linkedin:
+    url: "http://linkedin.com/company/gbrgacademy"
+    label: "LinkedIn"
+    icon: "fab fa-linkedin"
+  whatsapp:
+    url: "https://wa.me/919764511559"
+    label: "Whats App"
+    icon: "fab fa-whatsapp-square"
+  telegram:
+    url: "https://telegram.me/coolbrg"
+    label: "Whats App"
+    icon: "fab fa-telegram"
 
 permalink: /blogs/:title
 future: true

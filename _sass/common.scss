@@ -336,3 +336,42 @@ input[type="submit"] {
     font-family: 'Righteous', cursive;
   }
 }
+
+footer {
+  border-top: 2px solid $color1;
+  text-align: center;
+
+  .social_contacts {
+    padding: 1em;
+
+    i.fab {
+      font-size: 3em;
+    }
+  }
+}
+
+.copyright {
+  background: $color5;
+  color: white;
+  text-align: center;
+}
+
+// social links color code
+.fa-twitter-square {
+  color: #38A1F3;
+}
+.fa-facebook-square {
+  color: #4267b2;
+}
+.fa-github-square {
+  color: #333;
+}
+.fa-linkedin {
+  color: #0077B5;
+}
+.fa-whatsapp-square {
+  color: #25d366;
+}
+.fa-telegram {
+  color: #0088cc;
+}
