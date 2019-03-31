@@ -40,3 +40,29 @@
 		margin-left: 2em;
 	}
 }
+
+#preparationWorkflow .card-body {
+	text-align: left;
+
+	.text-bg-highlight {
+		font-size: 1.2em;
+		font-weight: 600;
+		color: $color2;
+	}
+
+	h4 {
+		width: 100%;
+	}
+}
+
+.quick-contact {
+	text-align: center;
+	background: $color1;
+	color: white;
+	width: 100%;
+	padding: 1em;
+
+	h1 {
+		font-family: 'Righteous', cursive;
+	}
+}
