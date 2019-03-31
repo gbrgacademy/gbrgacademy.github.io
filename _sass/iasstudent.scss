@@ -1,0 +1,42 @@
+.iasstudent-banner {
+	background: url($baseurl + "/assets/images/path.jpg")no-repeat 0px 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+	position: relative;
+	height: 400px;
+}
+
+.tips-list {
+	text-align: left;
+	padding: 0 2em;
+}
+.tips-list li {
+	list-style: none;
+	font-size: 15px;
+	letter-spacing: 1px;
+	display: block;
+	margin-top: 1em;
+	color: #777;
+	line-height: 10px;
+
+	i {
+		display: inline-block;
+		padding-right: 10px;
+		color: #00b6e3;
+		font-size: 14px;
+		font-weight: 600;
+		float: left;
+	}
+
+	span {
+		display: block;
+		line-height: 1em;
+	}
+
+	.sub-tips-list {
+		margin-left: 2em;
+	}
+}

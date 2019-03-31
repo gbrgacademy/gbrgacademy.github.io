@@ -66,6 +66,16 @@
   footer .social_contacts i.fab {
     font-size: 2em;
   }
+  .iasstudent-banner {
+    background: url($baseurl + "/assets/images/path-sm.jpg")no-repeat 0px 0px;
+    height: 330px;
+  }
+  .tips-list {
+		padding: 0;
+  }
+  .tips-list li span, #about .about-content .offering li {
+    letter-spacing: 0;
+  }
 }
 @media (max-width: 360px) { 
   .courses-list .nav-tabs a {

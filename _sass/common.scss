@@ -112,7 +112,13 @@ ul, ol {
   width: 100%;
 }
 .bg-blue {
-  background: #00b6e3;
+  background: $color1;
+}
+.open-sans {
+  font-family: 'Open sans', sans-serif !important;
+}
+.righteous-cursive {
+  font-family: 'Righteous', cursive !important;
 }
 .pitch-small {
   font-size: 22px;
@@ -125,6 +131,34 @@ ul, ol {
 }
 .bg-shadow-lg {
   box-shadow: 2px 0px 20px 0px #757575;
+}
+
+.about-img-caption {
+  background: $color4;
+  padding: 1em;
+  font-size: 0.9em;
+  color: white;
+}
+
+h5.page-main-title {
+	font-size: 2.8em;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 0.6em;
+	color: #000;
+	letter-spacing: 4px;
+	font-family: 'Righteous', cursive;
+}
+
+.about-section,
+.testimonials-section,
+.team-section,
+.gallery,
+.contact-page,
+.courses,
+.inner-pages,
+.iasstudent-section {
+	padding: 2.5em 0;
 }
 
 .course-content-box .fa-check-circle, .qns-box-list .fa-check-circle,
@@ -256,10 +290,10 @@ input[type="submit"] {
 #featured-video {
   background: #f5f8fc;
 
-  h5.main-w3l-title {
+  h5.page-main-title {
     margin-bottom: 0.4em;
   }
-  h5.main-w3l-title, h3.subheading-wthree, .about-top {
+  h5.page-main-title, h3.subheading-wthree, .about-top {
     text-align: center;
   }
   .about-top {
@@ -323,11 +357,11 @@ input[type="submit"] {
       line-height: 10px;
 
       span {
-        display: inline-block;
         padding-right: 10px;
         color: #00b6e3;
         font-size: 14px;
         font-weight: 600;
+        float: left;
       }
     }
   }

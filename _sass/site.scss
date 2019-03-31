@@ -1137,26 +1137,6 @@ ul.radio-buttons li {
 
 /*-- main --*/
 
-h5.main-w3l-title {
-	font-size: 2.8em;
-	text-transform: capitalize;
-	text-align: center;
-	margin-bottom: 0.6em;
-	color: #000;
-	letter-spacing: 4px;
-	font-family: 'Righteous', cursive;
-}
-
-.about-section,
-.testimonials-section,
-.team-section,
-.gallery,
-.contact-page,
-.courses,
-.inner-pages {
-	padding: 2.5em 0;
-}
-
 .paragraph-agileinfo {
 	font-size: 16px;
 	color: #777;
@@ -2699,7 +2679,7 @@ p.white-clr {
 }
 
 @media(max-width:1280px) {
-	h5.main-w3l-title {
+	h5.page-main-title {
 		font-size: 2.8em;
 		margin-bottom: 0.5em;
 		letter-spacing: 2px;
@@ -2987,7 +2967,6 @@ p.white-clr {
 		float: none;
 		display: block;
 		text-align: center;
-		margin-bottom: 10px;
 	}
 	.navbar-nav>li:nth-child(6) {
 		margin-bottom: 0!important;
@@ -3095,7 +3074,7 @@ p.white-clr {
 	.contact-maps {
 		margin-top: 2em;
 	}
-	h5.main-w3l-title {
+	h5.page-main-title {
 		font-size: 2em;
 		margin-bottom: 0.4em;
 		letter-spacing: 1px;
@@ -3210,7 +3189,7 @@ p.white-clr {
 	.form-bg input[type="submit"] {
     	margin-top: 2em;
 	}
-	h5.main-w3l-title {
+	h5.page-main-title {
 		line-height: 1.2em;
 	}
 }
@@ -3226,7 +3205,7 @@ p.white-clr {
 	.stat-grids h3 {
 		font-size: 0.9em;
 	}
-	h5.main-w3l-title {
+	h5.page-main-title {
 		letter-spacing: 1.5px;
 	}
 	.stat-grids:nth-child(2) {
