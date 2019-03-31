@@ -1,0 +1,63 @@
+---
+layout: default
+title: As Student
+permalink: /asstudent/
+---
+
+<div id="asstudent-page">
+
+  <div class="asstudent-banner">
+  </div>
+
+  {% include elevator-pitch.html %}
+
+  <div class="asstudent-section">
+    <div class="container">
+      <h5 class="page-main-title">Choose Your Path Yourself</h5>
+      
+        <!-- Nav tabs -->
+      <nav class="students-category">
+        <div class="nav nav-tabs nav-justified" id="asstudent-tab" role="tablist">
+          <a class="nav-item nav-link active" id="nav-front-end-tab" data-toggle="tab" href="#asstudent-college-kid" role="tab"
+            aria-controls="nav-front-end" aria-selected="true">
+            College Kid
+          </a>
+          <a class="nav-item nav-link" id="nav-back-end-tab" data-toggle="tab" href="#asstudent-jobseeker" role="tab"
+            aria-controls="courses-back-end" aria-selected="false">
+            Job Seeker
+          </a>
+          <a class="nav-item nav-link" id="nav-devops-tab" data-toggle="tab" href="#asstudent-working-people" role="tab"
+            aria-controls="courses-devops" aria-selected="false">
+            Working People
+          </a>
+          <a class="nav-item nav-link" id="nav-devops-tab" data-toggle="tab" href="#asstudent-hobbyist" role="tab"
+            aria-controls="courses-devops" aria-selected="false">
+            Hobbyist
+          </a>
+        </div>
+      </nav>
+      
+      <!-- Tab panes -->
+      <div class="tab-content" id="asstudent-tabContent">
+        <div role="tabpanel" class="tab-pane fade show active" id="asstudent-college-kid">
+          {% include college-kid.html %}
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="asstudent-jobseeker">
+          {% include jobseeker.html %}
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="asstudent-working-people">
+          {% include working-people.html %}
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="asstudent-hobbyist">
+          {% include hobbyist.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="quick-contact">
+  <h1>Contact GbrG Academy</h1>
+  <a href="/contact" role="button" class="btn btn-light open-sans mt-2">
+    Click Here &nbsp;<i class="fas fa-arrow-circle-right"></i></a>
+</div>
