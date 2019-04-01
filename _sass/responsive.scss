@@ -79,6 +79,11 @@
   h5.page-main-title {
     font-size: 2em;
   }
+
+  #preparationWorkflow .card .card-header button, #internshipWorkflow .card .card-header button {
+    font-size: 0.8em;
+    white-space: normal;
+  }
 }
 @media (max-width: 360px) { 
   .courses-list .nav-tabs a {

@@ -47,7 +47,7 @@
 	color: $color2;
 }
 
-#preparationWorkflow .card-body {
+#preparationWorkflow .card-body, #internshipWorkflow .card-body {
 	text-align: left;
 
 	h4 {
@@ -61,13 +61,14 @@
 	color: white;
 	width: 100%;
 	padding: 1em;
+	border-radius: 5px;
 
 	h1 {
 		font-family: 'Righteous', cursive;
 	}
 }
 
-#preparationWorkflow .card .card-header {
+#preparationWorkflow .card .card-header, #internshipWorkflow .card .card-header {
 	padding: 0 1.25rem;
 
 	button {
