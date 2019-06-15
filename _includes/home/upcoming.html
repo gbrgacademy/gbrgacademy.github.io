@@ -1,10 +1,9 @@
 <div id="upcoming-events">
   <div class="container">
     <h5 class="caption text-center">Upcoming Events</h5>
-    <!-- <div class="row"> -->
       <div class="row d-flex flex-row flex-wrap justify-content-center">
         {% assign upcoming_events_count = site.data.upcoming-events.size %}
-        
+
         {% for event in site.data.upcoming-events limit: 3 %}
           <div class="col-md-4 col-sm-12 mb-1">
             <div class="card event rounded-0">
@@ -26,7 +25,11 @@
         {% if upcoming_events_count > 3 %}
           <a href="/events" target="_blank" class="btn btn-primary">View More</a>
         {% endif %}
-      <!-- </div> -->
+
+        Upcoming Events: '{{ upcoming_events_count }}'
+        {% if !upcoming_events_count %}
+          <button class="btn btn-light">Yet To Announce</button>
+        {% endif %}
     </div>
   </div>
 </div>
