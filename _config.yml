@@ -26,10 +26,6 @@ social_contacts:
     url: "http://linkedin.com/company/gbrgacademy"
     label: "LinkedIn"
     icon: "fab fa-linkedin"
-  whatsapp:
-    url: "https://wa.me/919764511559"
-    label: "Whats App"
-    icon: "fab fa-whatsapp-square"
   telegram:
     url: "https://telegram.me/coolbrg"
     label: "Whats App"
